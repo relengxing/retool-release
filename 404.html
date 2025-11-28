@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>重定向中...</title>
+    <script>
+      // GitHub Pages SPA 路由解决方案
+      // 将路径信息保存到 sessionStorage 然后重定向到根目录
+      sessionStorage.redirect = location.href;
+      location.replace(location.pathname.split('/').slice(0, -1).join('/') + '/#' + location.pathname);
+    </script>
+  </head>
+  <body>
+    正在重定向...
+  </body>
+</html>
+
