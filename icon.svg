@@ -1,0 +1,37 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="512" height="512" rx="64" fill="#1890ff"/>
+  
+  <!-- 工具箱图标 -->
+  <g transform="translate(256, 256)">
+    <!-- 工具箱主体 -->
+    <rect x="-140" y="-80" width="280" height="180" rx="8" fill="#ffffff" opacity="0.95"/>
+    
+    <!-- 工具箱手柄 -->
+    <path d="M -60 -80 L -60 -100 C -60 -110, -50 -120, -40 -120 L 40 -120 C 50 -120, 60 -110, 60 -100 L 60 -80" 
+          fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round" opacity="0.95"/>
+    
+    <!-- 工具图标 - 扳手 -->
+    <g transform="translate(-70, 0)">
+      <rect x="-6" y="-40" width="12" height="60" rx="3" fill="#1890ff"/>
+      <circle cx="0" cy="-45" r="15" fill="none" stroke="#1890ff" stroke-width="6"/>
+    </g>
+    
+    <!-- 工具图标 - 螺丝刀 -->
+    <g transform="translate(0, 0)">
+      <rect x="-4" y="-40" width="8" height="50" rx="2" fill="#1890ff"/>
+      <polygon points="0,-40 -8,-55 8,-55" fill="#1890ff"/>
+    </g>
+    
+    <!-- 工具图标 - 锤子 -->
+    <g transform="translate(70, 0) rotate(30)">
+      <rect x="-3" y="-30" width="6" height="50" rx="2" fill="#1890ff"/>
+      <rect x="-20" y="-45" width="40" height="18" rx="3" fill="#1890ff"/>
+    </g>
+  </g>
+  
+  <!-- 底部文字 -->
+  <text x="256" y="430" font-family="Arial, sans-serif" font-size="48" font-weight="bold" 
+        text-anchor="middle" fill="#ffffff" opacity="0.95">工具箱</text>
+</svg>
+
