@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
+    <title>重定向中...</title>
+    <script>
+      // GitHub Pages SPA 路由解决方案
+      // 将路径信息保存到 sessionStorage 然后重定向到根目录
+      sessionStorage.redirect = location.href;
+      location.replace(location.pathname.split('/').slice(0, -1).join('/') + '/#' + location.pathname);
+    </script>
+  </head>
+  <body>
+    正在重定向...
+  </body>
+</html>
+

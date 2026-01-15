@@ -1,0 +1,43 @@
+{
+  "name": "在线工具箱 - 开发者实用工具集合",
+  "short_name": "在线工具箱",
+  "description": "提供时间戳转换、Base64编码、JWT解码、JSON格式化、YAML转换、URL编码、哈希计算、文本对比等实用工具",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1890ff",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["utilities", "productivity", "developer tools"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "时间戳转换",
+      "short_name": "时间戳",
+      "description": "快速转换时间戳",
+      "url": "/#/tools/timestamp",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "JSON格式化",
+      "short_name": "JSON",
+      "description": "格式化和验证JSON",
+      "url": "/#/tools/json-formatter",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
+
